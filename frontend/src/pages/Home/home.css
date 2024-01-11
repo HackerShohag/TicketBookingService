@@ -1,0 +1,27 @@
+.container-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .container-wrapper {
+        flex-direction: column;
+    }
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-image {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.clickable {
+    cursor: pointer;
+}

@@ -1,0 +1,82 @@
+.booking-form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.booking-form-container .form-group {
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.booking-form-container .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.booking-form-container form {
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.booking-form-container input,
+.booking-form-container select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+.booking-form-container button {
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+.booking-form-container input:focus,
+.booking-form-container select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+.booking-form-container button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.booking-form-container button:hover {
+    background-color: #0056b3;
+}
+
+.booking-form-container .date-picker {
+    width: 95%;
+    left: 0;
+    margin-left: 0;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

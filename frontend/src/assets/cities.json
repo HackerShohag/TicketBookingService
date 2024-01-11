@@ -1,0 +1,18 @@
+[
+    {
+      "id": "1",
+      "source": "City 1",
+      "destinations": ["Destination 1-1", "Destination 1-2", "Destination 1-3"]
+    },
+    {
+      "id": "2",
+      "source": "City 2",
+      "destinations": ["Destination 2-1", "Destination 2-2", "Destination 2-3"]
+    },
+    {
+      "id": "3",
+      "source": "City 3",
+      "destinations": ["Destination 3-1", "Destination 3-2", "Destination 3-3"]
+    }
+  ]
+  

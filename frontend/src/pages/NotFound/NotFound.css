@@ -1,0 +1,36 @@
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-5xl {
+    font-size: 5rem;
+    color: red;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-2xl {
+    font-size: 2rem;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
